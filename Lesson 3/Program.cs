@@ -1,5 +1,12 @@
-﻿Console.WriteLine($"{Math.PI:F2}");
-Console.WriteLine($"{Math.E:F1}");
-Console.WriteLine("Введите число");
-int n = int.Parse(Console.ReadLine());
-Console.WriteLine($"Вы ввели число {n}");
+﻿//Console.WriteLine($"{Math.PI:F2}");
+//Console.WriteLine($"{Math.E:F1}");
+//Console.WriteLine("Введите число");
+//int n = int.Parse(Console.ReadLine());
+//Console.WriteLine($"Вы ввели число {n}");
+//Console.WriteLine($"{1} {13} {49}");
+//Console.WriteLine($"{7}  {15}  {100}");
+Console.WriteLine("Введите три числа");
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+int c = int.Parse(Console.ReadLine());
+Console.WriteLine($"Вы ввели {a}  {b}  {c}");
