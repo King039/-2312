@@ -20,3 +20,10 @@
 //int x = int.Parse(Console.ReadLine());
 //int y = int.Parse(Console.ReadLine());
 //Console.WriteLine($"{x} 25\n{x} {y}");
+//1.17
+Console.WriteLine("Введите x1");
+double x1 = double.Parse(Console.ReadLine());
+Console.WriteLine("Введите x2");
+double x2 = double.Parse(Console.ReadLine());
+double res = Math.Sqrt(x1 * x1 + x2 * x2);
+Console.WriteLine($"Результат={res:F2}");
