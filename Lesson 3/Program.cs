@@ -45,3 +45,7 @@
 //double h = double.Parse(Console.ReadLine());
 //double s = (m * v*v) / 2 + v * g * h;
 //Console.WriteLine($"s={s:F2}");
+//Console.WriteLine("Введите x");
+//double x = double.Parse(Console.ReadLine());
+//double y = 7 * x * x - 3 * x + 6;
+//Console.WriteLine($"y={y:F2}");
