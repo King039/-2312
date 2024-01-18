@@ -43,13 +43,10 @@
 //double g = double.Parse(Console.ReadLine());
 //Console.WriteLine("Введите h");
 //double h = double.Parse(Console.ReadLine());
-//double s = (m * v*v) / 2 + v * g * h;
+//double s = (m * v * v) / 2 + v * g * h;
 //Console.WriteLine($"s={s:F2}");
 //Console.WriteLine("Введите x");
 //double x = double.Parse(Console.ReadLine());
 //double y = 7 * x * x - 3 * x + 6;
 //Console.WriteLine($"y={y:F2}");
-Console.WriteLine("Добиться успеха легко, познать смысл - вот проблема");
-string str = "Добиться успеха легко, познать смысл - вот проблема";
-Console.WriteLine("До: " + str);
-Console.WriteLine("После: " + str.Insert(23, "но "));
+
