@@ -49,3 +49,7 @@
 //double x = double.Parse(Console.ReadLine());
 //double y = 7 * x * x - 3 * x + 6;
 //Console.WriteLine($"y={y:F2}");
+Console.WriteLine("Добиться успеха легко, познать смысл - вот проблема");
+string str = "Добиться успеха легко, познать смысл - вот проблема";
+Console.WriteLine("До: " + str);
+Console.WriteLine("После: " + str.Insert(23, "но "));
