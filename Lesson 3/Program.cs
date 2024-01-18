@@ -50,10 +50,10 @@
 //double y = 7 * x * x - 3 * x + 6;
 //Console.WriteLine($"y={y:F2}");
 Console.Write("Введите число n:");
-int n= int.Parse(Console.ReadLine());
+int n = int.Parse(Console.ReadLine());
 int a = n / 1000;
 int b = n % 1000 / 100;
 int c = n % 100 / 10;
 int d = n % 10;
-Console.WriteLine($"Сумма цифр : {a+b+c+d}");
-Console.WriteLine($"Произведение цифр : {a*b*c*d}");
+Console.WriteLine($"Сумма цифр : {a + b + c + d}");
+Console.WriteLine($"Произведение цифр : {a * b * c * d}");
